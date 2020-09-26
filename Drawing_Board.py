@@ -12,7 +12,7 @@ def getmask(imgblur):
     return mask
 
 if __name__ == "__main__":
-    frame = cv2.VideoCapture(1)
+    frame = cv2.VideoCapture(0)
    
     pen = []
     while True:
